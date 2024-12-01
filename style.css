@@ -1,0 +1,1163 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+/* Header Section Start */
+#bgimg {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/villa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#header {
+    height: 15vh;
+    width: 100%;
+    box-shadow: -11px -3px 11px 0px rgb(230 234 237);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: teal;
+    z-index: 999;
+}
+
+#header img {
+    display: inline-block;
+    left: 13vh;
+    position: relative;
+    height: 13vh;
+    top: 1vh;
+
+}
+
+#header button {
+    display: inline-block;
+    position: absolute;
+    right: 26vh;
+    top: 4vh;
+    padding: 2vh 5vh;
+    background-color: transparent;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid white;
+    font-weight: bold;
+
+}
+
+
+#header ul li {
+    display: inline-block;
+    position: relative;
+    right: 91vh;
+    top: 6vh;
+}
+
+#header ul li a {
+    font-size: large;
+    color: white;
+    margin: 25px;
+    font-weight: 200;
+}
+
+#header ul li a:hover {
+    color: orangered;
+
+}
+
+#header ul li a.bold {
+    font-weight: bold;
+}
+
+#header i {
+    position: relative;
+    left: 77vh;
+    top: 6vh;
+}
+
+#header i span {
+    margin: 1vh;
+}
+
+
+.fa-user-circle:before {
+    margin-right: -127px;
+    position: relative;
+    display: inline-block;
+    right: 26px;
+    padding: 13px 14px;
+    background: #00bcd4;
+    top: -2vh;
+}
+
+.fa-home:before {
+    position: relative;
+    right: 9vh;
+}
+
+#header .user a i {
+    position: relative;
+}
+
+
+/* Header Section End */
+
+/* < !-- Website Content start --> */
+#content h1 {
+    color: #00bcd4;
+    font-family: system-ui;
+    font-size: 3vh;
+    text-align: center;
+    position: relative;
+    top: 28vh;
+
+}
+
+#content h2 {
+    color: white;
+    font-size: 6vh;
+    text-align: center;
+    position: relative;
+    top: 31vh;
+    font-family: system-ui;
+}
+
+
+
+/* <!-- Website Content End --> */
+
+/* Button Section Start */
+.button {
+    border: none;
+    color: black;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    top: 20vh;
+    left: 220px;
+    cursor: pointer;
+    margin-left: 2vh;
+    position: relative;
+    font-weight: 600;
+}
+.button .button3{
+    padding: 7px 10px;
+}
+.button .button1{
+    padding: 7px 15px;
+    background: teal;
+    color: white;
+}
+.button :hover{
+    color: white;
+    background: teal;
+}
+
+  
+
+/* Button Section End */
+
+
+
+/* Search bar start */
+
+.search {
+    height: 7vh;
+    width: 37%;
+    position: relative;
+    top: 42vh;
+    right: -64vh;
+    background: white;
+    ;
+}
+
+.serach form input {
+    height: 9vh;
+
+
+}
+
+.opt {
+    display: flex;
+    gap: 3vh;
+    position: relative;
+    padding: 0vh 4vh;
+    height: 7vh;
+
+}
+
+.search option {
+    height: 7vh;
+    border: none;
+    background: white;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.opt form input {
+    height: 7vh;
+    width: 10vh;
+    background: white;
+    ;
+
+}
+
+.search select {
+    height: 7vh;
+    border: none;
+    background: white;
+    font-size: 2vh;
+    font-weight: 600;
+
+}
+
+.search .form input {
+    height: 7vh;
+    border: none;
+    background:teal;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+/* Search bar End */
+
+/* Explore Good Places Start  */
+
+#container .place h1 {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+
+}
+
+#container .place p {
+    text-align: center;
+    margin-bottom: 8vh;
+    color: darkslategrey;
+    font-size: 2vh;
+
+}
+
+#places {
+    height: 100vh;
+    width: 100%;
+    background-color: #00bcd4;
+    border: 1px solid black;
+}
+
+/* <!-- Explore Good Places Start --> */
+
+
+#explore .col-md {
+    box-shadow: 1px 4px 7px 3px grey;
+    height: 60vh;
+    width: 48vh;
+    position: relative;
+    left: 27vh;
+    margin-bottom: 3vh;
+    border: none;
+
+}
+
+#explore .row {
+    display: flex;
+}
+
+#explore .col-md img {
+    height: 30vh;
+    width: 48vh;
+}
+
+#explore #md1 {
+    margin-right: 3vh;
+
+}
+
+#explore #md2 {
+    margin-right: 3vh;
+
+}
+
+#explore #md3 {
+    margin-right: 3vh;
+
+}
+
+#explore .col-md h3 {
+    font-size: large;
+    top: 1vh;
+    position: inherit;
+    left: 1vh;
+    color: midnightblue;
+}
+
+#explore .col-md .fa {
+    position: relative;
+    top: 2vh;
+    left: 2vh;
+    color: darkblue;
+    font-weight: 600;
+}
+
+#explore .col-md .fab {
+    position: relative;
+    top: 5vh;
+    display: flex;
+
+}
+
+#explore .col-md .btn {
+    position: relative;
+    top: 4vh;
+    padding: 12px 3vh;
+    right: 1vh;
+    color: purple;
+    font-weight: 800;
+
+}
+
+#explore .col-md .bt {
+    position: relative;
+    top: -24px;
+    padding: 11px 3vh;
+    right: -12vh;
+    color: purple;
+    font-weight: 800;
+    border: none;
+
+}
+
+#explore .col-md .bt #bt1 {
+    font-size: 30px;
+    color: #1baff4;
+    padding: 1vh 3vh;
+    background: gainsboro;
+
+}
+
+#explore .col-md .bt #bt2 {
+    font-size: 30px;
+    color: #1baff4;
+    padding: 1vh 3vh;
+    background: gainsboro;
+}
+
+#explore .col-md .bt #bt3 {
+    font-size: 30px;
+    color: #1baff4;
+    padding: 1vh 3vh;
+    background: gainsboro;
+}
+
+#explore .view {
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    top: 7vh;
+    left: 92vh;
+    padding: 1vh 6vh 1vh 5vh;
+    font-size: large;
+    color: white;
+    background: dodgerblue;
+    border: none;
+}
+
+/* Explore Good Places End  */
+
+/* Explore By property type start */
+#property .type button {
+    color: #03a9f4;
+    background: bisque;
+    display: inline-block;
+    position: relative;
+    left: 40vh;
+    padding: 9vh 9vh 8vh 9vh;
+    margin: 1vh;
+    border: none;
+
+}
+
+#property .type h1 {
+    font-size: large;
+    font-family: system-ui;
+}
+
+#property .type i {
+    font-size: 6vh;
+    margin-bottom: 3vh;
+
+}
+
+#property .type button:hover {
+    color: #ced3d5;
+    background: rgb(213, 121, 9);
+
+}
+
+
+/* Explore By property type End  */
+
+/* <!-- Why choose our property section start --> */
+#why {
+    height: 100vh;
+    width: 100%;
+    background-color: #daf4f8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15vh;
+}
+
+#why .place h1 {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+    position: relative;
+    top: 12vh;
+
+}
+
+#why .place p {
+    text-align: center;
+    margin-bottom: 8vh;
+    color: darkslategrey;
+    font-size: 2vh;
+    position: relative;
+    top: 12vh;
+}
+
+#why .font button {
+    display: block;
+    position: relative;
+    top: 26vh;
+    color: white;
+    background: teal;
+    font-size: 6vh;
+    margin-left: 25vh;
+    border: none;
+
+}
+
+#why .font #font1 {
+    position: relative;
+    top: 14vh;
+    padding: 1vh 3vh 1vh 3vh;
+
+}
+
+#why .font #font2 {
+    position: relative;
+    top: 18vh;
+    font-size: 5vh;
+    padding: 1vh 3vh 2vh 3vh;
+
+
+}
+
+#why .font #font3 {
+    position: relative;
+    top: 22vh;
+    padding: 1vh 2vh 1vh 2vh;
+
+}
+
+#why .font #font4 {
+    position: relative;
+    top: 26vh;
+    padding: 1vh 4vh 1vh 4vh;
+
+}
+
+#why .by {
+    position: relative;
+    margin: 1vh 1vh 1vh 39vh;
+    top: -21vh;
+    font-size: 2vh;
+}
+
+#why .by h1 {
+    color: darkred;
+}
+
+#why .by p {
+    color: darkslategray;
+}
+
+#why .by .by1 {
+    position: relative;
+}
+
+#why .by .by2 {
+    position: relative;
+    top: 4vh;
+}
+
+#why .by .by3 {
+    position: relative;
+    top: 9vh;
+}
+
+#why .by .by4 {
+    position: relative;
+    top: 14vh;
+}
+
+#why .img8 img {
+    height: 49vh;
+    position: relative;
+    top: -55vh;
+    left: 99vh;
+
+}
+
+/* <!-- Why choose our property section End--> */
+
+/* <!-- Find Your Neighborhood section start--> */
+#find .place h1 {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+    position: relative;
+    top: 12vh;
+
+}
+
+#find .place p {
+    text-align: center;
+    margin-bottom: 8vh;
+    color: darkslategrey;
+    font-size: 2vh;
+    position: relative;
+    top: 12vh;
+
+}
+
+#find .col-md {
+    box-shadow: 1px 4px 7px 3px grey;
+    height: 43vh;
+    width: 52vh;
+    position: relative;
+    left: 20vh;
+    margin-bottom: 3vh;
+    border: none;
+    margin-bottom: 4vh;
+}
+
+#find .row1 {
+    display: flex;
+    position: relative;
+    top: 13vh;
+}
+
+#find #md1 {
+    margin-right: 4vh;
+}
+
+#find #md2 {
+    margin-right: 4vh;
+}
+
+#find #md3 {
+    margin-right: 4vh;
+}
+
+#find .col-md img {
+    height: 33vh;
+    width: 52vh;
+}
+
+#find .col-md h1 {
+    position: relative;
+    left: 2vh;
+    top: 1vh;
+
+}
+
+#find .col-md p {
+    font-weight: 600;
+    position: relative;
+    color: indigo;
+    left: 2vh;
+    top: 1vh;
+}
+
+#find .col-md i {
+    position: relative;
+    left: 41vh;
+    top: -5vh;
+    padding: 2vh 2vh 2vh 2vh;
+    border: 2px solid #21acbe;
+    color: #21acbe;
+}
+
+/* <!-- Find Your Neighborhood section End--> */
+
+/* <!-- Our Exclusive Agents section start --> */
+
+#agent {
+    height: 100vh;
+    width: 100%;
+    background-color: #daf4f8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 23vh;
+
+}
+
+#agent .place h1 {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+    position: relative;
+    top: 9vh;
+
+}
+
+#agent .place p {
+    text-align: center;
+    margin-bottom: 8vh;
+    color: darkslategrey;
+    font-size: 2vh;
+    position: relative;
+    top: 9vh;
+
+}
+
+#agent .arrow {
+    margin: 1vh 3vh -4vh 154vh;
+    position: relative;
+    top: 9vh;
+
+}
+
+#agent #arrow1 {
+    position: relative;
+    padding: 3vh 3vh 3vh 3vh;
+    background: #126d97;
+    right: 2vh;
+    color: white;
+}
+
+#agent #arrow2 {
+    position: relative;
+    padding: 3vh 3vh 3vh 3vh;
+    background: #126d97;
+    color: white;
+
+}
+
+#agent .col-md {
+    box-shadow: 1px 4px 7px 3px grey;
+    height: 46vh;
+    width: 39vh;
+    position: relative;
+    left: 19vh;
+    margin-bottom: 6vh;
+    top: 17vh;
+    border: none;
+}
+
+#agent .arrow3 {
+    display: flex;
+}
+
+#agent .arrow3 #md1 {
+    margin-right: 4vh;
+}
+
+#agent .arrow3 #md2 {
+    margin-right: 4vh;
+}
+
+#agent .arrow3 #md3 {
+    margin-right: 4vh;
+}
+
+#agent .arrow #md4 {
+    margin-right: 4vh;
+}
+
+#agent .arrow3 img {
+    height: 35vh;
+    width: 39vh;
+}
+
+#agent .col-md h1 {
+    position: relative;
+    left: 2vh;
+    top: 1vh;
+    font-size: 18px;
+
+}
+
+#agent .col-md p {
+    font-weight: 600;
+    position: relative;
+    color: indigo;
+    left: 2vh;
+    top: 1vh;
+}
+
+#agent .col-md i {
+    position: relative;
+    font-weight: 600;
+    font-size: 17px;
+    color: #126d97;
+    top: 1vh;
+    left: 2vh;
+
+}
+
+
+/* <!-- Our Exclusive Agents section End -->
+
+    /* <!-- testimonial section start --> */
+
+#test .place h1 {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+    position: relative;
+    top: 9vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#test .place p {
+    text-align: center;
+    margin-bottom: 8vh;
+    color: darkslategrey;
+    font-size: 2vh;
+    position: relative;
+    top: 7vh;
+    color: darkred;
+    font-weight: 600;
+    word-spacing: 1vh;
+    line-height: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#test .arrow {
+    margin: 1vh 3vh -4vh 154vh;
+    position: relative;
+    top: -9vh;
+
+
+}
+
+#test #arrow1 {
+    position: relative;
+    padding: 2vh 2vh 2vh 2vh;
+    background: #2c8ab6;
+    right: 120vh;
+    color: white;
+}
+
+#test #arrow2 {
+    position: relative;
+    padding: 2vh 2vh 2vh 2vh;
+    background: #2c8ab6;
+    color: white;
+
+}
+
+#test .kiara img {
+    position: relative;
+    height: 21vh;
+    left: 89vh;
+    top: 3vh;
+    border-radius: 18vh;
+}
+
+#test .kiara h1 {
+    position: relative;
+    margin: 4vh 1vh 1vh 90vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#test .kiara h2 {
+    position: relative;
+    margin: 1vh 1vh 1vh 91vh;
+    font-size: 15px;
+    color: #1a8585;
+}
+
+#test .kiara i {
+    position: relative;
+    color: #0d63a7;
+    left: 92vh;
+
+}
+
+/* <!-- testimonial section End --> */
+
+/* <!-- News By Resido section start --> */
+
+#resido .place h1 {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 6vh;
+    position: relative;
+    top: 9vh;
+
+}
+
+#resido .place p {
+    text-align: center;
+    margin-bottom: 8vh;
+    color: darkslategrey;
+    font-size: 2vh;
+    position: relative;
+    top: 9vh;
+}
+
+#resido {
+    height: 196vh;
+    width: 100%;
+    background-color: #daf4f8;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 16vh;
+    margin-bottom: 17vh;
+
+
+}
+
+#resido .col-md {
+    box-shadow: 1px 4px 7px 3px grey;
+    height: 66vh;
+    width: 52vh;
+    position: relative;
+    left: 20vh;
+    margin-bottom: 3vh;
+    border: none;
+    margin-bottom: 4vh;
+    top: 8vh;
+}
+
+#resido .arrow3 {
+    display: flex;
+}
+
+#resido .arrow3 #md1 {
+    margin-right: 4vh;
+}
+
+#resido .arrow3 #md2 {
+    margin-right: 4vh;
+}
+
+#resido .arrow3 #md3 {
+    margin-right: 4vh;
+}
+
+#resido .col-md img {
+    height: 35vh;
+    width: 52vh;
+
+}
+
+#resido .col-md i {
+    position: relative;
+    font-size: 2vh;
+    font-weight: 600;
+    color: darkblue;
+    top: 2vh;
+    margin-left: 3vh;
+
+}
+
+#resido .col-md h1 {
+    position: relative;
+    top: 4vh;
+    font-size: 18px;
+    left: 2vh;
+    font-family: system-ui;
+
+}
+
+#resido .col-md p {
+    font-size: 15px;
+    position: relative;
+    top: 5vh;
+    left: 2vh;
+    color: darkblue;
+
+
+}
+
+#resido .col-md button {
+    position: relative;
+    top: 7vh;
+    left: 2vh;
+    padding: 2ch;
+    border: none;
+    color: #087070;
+    background: #6defef;
+    font-weight: 600;
+}
+
+#resido .col-md #but3 {
+    position: relative;
+    top: -50vh;
+    left: -12vh;
+    padding: 1ch;
+    border: none;
+    color: whitw;
+    color: white;
+    background: #58c2c2;
+    font-weight: 600;
+}
+
+#resido #miss {
+    height: 20vh;
+    width: 73%;
+    background-color: #27fbfb;
+    position: relative;
+    top: 22vh;
+    left: 25vh;
+    box-shadow: 2px 1px 11px 1px orchid;
+
+}
+
+#resido #miss i {
+    position: relative;
+    top: 6vh;
+    left: 5vh;
+    background: #ff5722;
+    padding: 16px;
+    font-size: 21px;
+    border-radius: 8px;
+    color: aliceblue;
+
+
+}
+
+#resido #miss h1 {
+    position: relative;
+    left: 17vh;
+    top: -3vh;
+    line-height: 47px;
+    font-size: 26px;
+    color: orangered;
+    font-family: system-ui;
+}
+
+#resido #miss input {
+    position: relative;
+    top: -13vh;
+    left: 74vh;
+    padding: 16px 150px 16px 19px;
+    border: none;
+
+}
+
+#resido #miss button {
+    position: relative;
+    font-weight: 600;
+    color: aliceblue;
+    left: 76vh;
+    top: -13vh;
+    padding: 13px 42px 13px 8px;
+    background: orangered;
+    font-size: 2vh;
+    border: none;
+}
+
+/* <!-- News By Resido section End --> */
+
+
+/* Footer section start */
+
+#footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #2c5c62, teal);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+#footer .row9 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+#footer .col9 {
+    flex-basis: 23%;
+    padding: 10px;
+    position: relative;
+    top: -11vh;
+}
+
+#footer .social-icons #s {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background: #1d909e;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 4vh;
+}
+
+#footer .col10 {
+    flex-basis: 23%;
+    padding: 10px;
+    position: relative;
+    top: 7vh;
+    left: 9vh;
+
+}
+
+#footer .col10 ul li {
+    list-style: none;
+    position: relative;
+    top: -5vh;
+
+
+}
+
+#footer .col10 ul li a {
+    text-decoration: none;
+    color: #fff;
+    top: -6vh;
+    line-height: 5vh;
+    font-weight: 600;
+}
+
+#footer .col10 h3 {
+    position: relative;
+    font-size: 3vh;
+    top: -11vh;
+
+}
+
+#footer .col11 {
+    flex-basis: 23%;
+    position: relative;
+    top: -3vh;
+    left: 1vh;
+}
+
+#footer .col11 input {
+    position: relative;
+    padding: 14px 75px 14px 19px;
+    border: none;
+    top: 8vh;
+
+}
+
+#footer .col11 button {
+    position: relative;
+    font-weight: 600;
+    color: aliceblue;
+    background: orangered;
+    padding: 13px 21px 13px 21px;
+    top: 11vh;
+    font-size: 2vh;
+    border: none;
+}
+
+#footer .col11 h3 {
+    position: relative;
+    font-size: 3vh;
+
+}
+#footer .col11 p {
+    position: relative;
+    top: 14vh;
+
+}
+
+#footer .col12 {
+    flex-basis: 23%;
+    position: relative;
+    top: -3vh;
+    right: -7vh;
+}
+#footer .col12 h3 {
+    position: relative;
+    font-size: 3vh;
+    
+
+}
+#footer .col12 i{
+    position: relative;
+    display: block;
+    top: 6vh;
+    
+
+}
+#footer .col12 #c1 {
+    position: relative;
+    font-size: 3vh;
+    display: contents;
+    top: 6vh;
+    display: flex;
+    
+
+}
+#footer .col12 #c2{
+    position: relative;
+    font-size: 3vh;
+    display: contents;
+    top: 10vh;
+    display: flex;
+
+    
+
+}
+#footer .col12 #c3 {
+    position: relative;
+    font-size: 3vh;
+    display: contents;
+    top: 14vh;
+    display: flex;
+    
+
+}
+#footer .col12 p {
+    margin-left: 2vh;
+    font-size: 2vh;
+    line-height: 20px;
+
+}
+
+
+
+
+
+/* Footer section End */
